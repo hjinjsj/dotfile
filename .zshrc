@@ -1,4 +1,4 @@
-export ZSH="/Users/kaboom/.oh-my-zsh"
+export ZSH="/Users/huangjin/.oh-my-zsh"
 
 ZSH_THEME="powerlevel9k/powerlevel9k"
 POWERLEVEL9K_MODE='nerdfont-complete'
