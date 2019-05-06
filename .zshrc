@@ -37,6 +37,7 @@ alias ll='ls -la'
 alias la='ls -a'
 alias lt='ls --tree'
 alias hexo="./node_modules/hexo/bin/hexo"
+alias grep="grep --color=auto"
 
 plugins=(
 	git-open
@@ -73,11 +74,11 @@ setopt HIST_FIND_NO_DUPS
 setopt HIST_REDUCE_BLANKS        # Remove superfluous blanks before recording entry.
 setopt HIST_BEEP                 # Beep when accessing nonexistent history.
 
-export PATH="~/.pyenv/bin:$PATH"
+export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
-export PATH="$HOME/.npm-global/bin:$PATH"
+export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 fortune
 
