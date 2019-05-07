@@ -78,7 +78,7 @@ export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
-export PATH="$HOME/.composer/vendor/bin:$PATH"
+export PATH="$HOME:$HOME/.composer/vendor/bin:$PATH"
 
 fortune
 
