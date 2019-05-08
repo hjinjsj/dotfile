@@ -78,7 +78,23 @@ export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
+# home + composer
 export PATH="$HOME:$HOME/.composer/vendor/bin:$PATH"
 
+# sqlite
+export PATH="/usr/local/opt/sqlite/bin:$PATH
+
+# LDFLAGS
+# export LDFLAGS="-L/usr/local/opt/sqlite/lib"
+# CPPFLAGS
+# export CPPFLAGS="-I/usr/local/opt/sqlite/include"
+# pkg-config
+# export PKG_CONFIG_PATH="/usr/local/opt/sqlite/lib/pkgconfig"
+
+# thefuck
+eval $(thefuck --alias)
+
 fortune
+
+
 
