@@ -96,5 +96,3 @@ eval $(thefuck --alias)
 
 fortune
 
-
-
