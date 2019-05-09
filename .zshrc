@@ -82,7 +82,7 @@ eval "$(pyenv virtualenv-init -)"
 export PATH="$HOME:$HOME/.composer/vendor/bin:$PATH"
 
 # sqlite
-export PATH="/usr/local/opt/sqlite/bin:$PATH
+export PATH="/usr/local/opt/sqlite/bin:$PATH"
 
 # LDFLAGS
 # export LDFLAGS="-L/usr/local/opt/sqlite/lib"
@@ -95,4 +95,3 @@ export PATH="/usr/local/opt/sqlite/bin:$PATH
 eval $(thefuck --alias)
 
 fortune
-
